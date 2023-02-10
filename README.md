@@ -39,6 +39,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+#### Custom Scripts
+
+### `npm run coverage`
+
+This command presents you full information about the tests coverage of the project.
+
+See the official Jest documentation about the [coverage CLI options](https://jestjs.io/docs/cli#--coverageboolean)
+
+### `npm run prepare`
+
+This command runs automatically on `npm install` by Husky Git hooks tool. This is not necessary to run this command manually. This command configures the tool and prepares the application for development.
+
+[Husky docs.](https://typicode.github.io/husky/#/)
+
+### `npm run lint`
+
+Runs Eslint to check the project code and fixes small issues. 
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
