@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/GiphySearch/static/js/main.8eb3df8e.js",
+    "static/js/787.eb7d352e.chunk.js": "/GiphySearch/static/js/787.eb7d352e.chunk.js",
+    "index.html": "/GiphySearch/index.html",
+    "main.8eb3df8e.js.map": "/GiphySearch/static/js/main.8eb3df8e.js.map",
+    "787.eb7d352e.chunk.js.map": "/GiphySearch/static/js/787.eb7d352e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8eb3df8e.js"
+  ]
+}
