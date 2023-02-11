@@ -47,15 +47,44 @@ This command presents you full information about the tests coverage of the proje
 
 See the official Jest documentation about the [coverage CLI options](https://jestjs.io/docs/cli#--coverageboolean)
 
+### `npm run lint`
+
+Runs Eslint to check the project code and fixes small issues.
+
+### `npm run deploy`
+
+Deploys the application to GitHub pages using `gh-pages` tool.
+[Official docs from Create React App](https://create-react-app.dev/docs/deployment/#github-pages)
+
+### `npm run predeploy`
+
+**Note: This script is used by `gh-pages` tool.**
+
+It is a simple CRA build command that is being called from the `gh-pages` tool as a pre-deploy step.
+
 ### `npm run prepare`
 
 This command runs automatically on `npm install` by Husky Git hooks tool. This is not necessary to run this command manually. This command configures the tool and prepares the application for development.
 
 [Husky docs.](https://typicode.github.io/husky/#/)
 
-### `npm run lint`
+### `npm run test:precommit`
 
-Runs Eslint to check the project code and fixes small issues. 
+**Note: This script is used by Husky on pre-commit hook.**
+
+This command runs automatically on commit. It runs tests without the watch mode, and fails the commit if tests are not passing.
+
+### `npm run tsc`
+
+**Note: This script is used by Husky on pre-commit hook.**
+
+Runs TypeScript compiler. Husky runs this command on pre-commit and fails the commit if ane TypeScript errors were found
+
+### `npm run lint-staged`
+
+**Note: This script is used by Husky on pre-commit hook.**
+
+This command runs automatically on commit. It tries to lint committed files and will fail the commit if errors were found.  
 
 ## Learn More
 
